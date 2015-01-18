@@ -3,29 +3,108 @@
   <head>
     <meta charset="UTF-8">
     <title>Assignment 2</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   
   <body>
     <table>
-      <caption>Contents of table</caption>
-      <header> 
-        <th>1 <th>2 <th>3 <th>4 <th>5 <th>6
-      </header>
-      <tr>
-        <th>header2 <td>2 <td>3 <td>4 <td>5 <td>6
-      </tr>
-      <tr>
-        <th>header3 <td>2 <td>3 <td>4 <td>5 <td>6
-      </tr>
-      <tr>
-        <th>header4 <td>2 <td>3 <td>4 <td>5 <td>6
-      </tr>
-      <tr>
-        <th>header5 <td>2 <td>3 <td>4 <td>5 <td>6
-      </tr>
-      <footer>
-        <th colspan=2>2 <td colspan=4>4
-      </footer>
+      <caption>Madlib Matrix</caption>
+      <thead> 
+        <th> <th>Light <th>Sausage <th>Bacon <th>Cat <th>Dog
+      </thead>
+      <tbody>
+        <tr>
+          <th>Apple <td>Applelight <td>Applesausage<td>Applebacon <td>Applecat <td>Appledog
+        </tr>
+        <tr>
+          <th>Dice <td>Dicelight <td>Dicesausage <td>Dicebacon <td>Dicecat <td>Dicedog
+        </tr>
+        <tr>
+          <th>Foot <td>Footlight <td>Footsausage <td>Footbacon <td>Footcat <td>Footdog
+        </tr>
+        <tr>
+          <th>Wallet <td>Walletlight <td>Walletsausage <td>Walletbacon <td>Walletcat <td>Walletdog
+        </tr>
+        <tr>
+          <th>Rock  <td>Rocklight <td>Rocksausage <td>Rockbacon <td>Rockcat <td>Rockdog
+        </tr>
+      </tbody>
+      <tfoot>
+        <th colspan=2>Footer 1 <td colspan=4>Footer 2
+      </tfoot>
     </table>
+    
+    <dl>
+      <dt>Favorite Bike Brand
+      <dd>Specialized
+      <dt>Best Bang-For-Your-Buck Groupset
+      <dd>Shimano 105
+      <dt>Favorite Cyclist
+      <dd>Jens Voigt
+    </dl>
+    
+    <form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="get">
+      <fieldset>
+      <legend>GET Form</legend>
+      <div>
+        <label for="text_input">Enter some text: </label>
+        <input type="text" id="text_input" name="text_input"/>
+      </div>
+      <div>
+        <label for="numerical_input">Enter some number(s): </label>
+        <input type="number" id="numerical_input" name="numerical_input"/>
+      </div>
+      <div>
+        <label for="password_input">Password: </label>
+        <input type="password" id="password_input" name="password_input"/>
+      </div>
+      <div>
+        Select a Candy:
+        <label for="candy">Snickers <input type="radio" id="candy" name="candy"/></label>
+        <label for="candy">Skittles <input type="radio" id="candy" name="candy"/></label>
+        <label for="candy">Mentos <input type="radio" id="candy" name="candy"/></label>
+      </div>
+      </fieldset>
+    </form>
+    
+    <form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="post">
+      <fieldset>
+      <legend>POST Form</legend>
+      <div>
+        <label for="text_input">Enter some text: </label>
+        <input type="text" id="text_input" name="text_input"/>
+      </div>
+      <div>
+        <label for="numerical_input">Enter some number(s): </label>
+        <input type="number" id="numerical_input" name="numerical_input"/>
+      </div>
+      <div>
+        <label for="password_input">Password: </label>
+        <input type="password" id="password_input" name="password_input"/>
+      </div>
+      <div>
+        Select a Candy:
+        <label for="candy">Snickers <input type="radio" id="candy" name="candy"/></label>
+        <label for="candy">Skittles <input type="radio" id="candy" name="candy"/></label>
+        <label for="candy">Mentos <input type="radio" id="candy" name="candy"/></label>
+      </div>
+        <input type="submit" Submit/>
+      </fieldset>
+    </form>
+    
+    <div class="outer-content">
+      <div class="inner-content">
+      </div>
+    </div>
+    <br>
+    <p>
+      <img src="http://www.asmithblog.com/wp-content/uploads/2014/02/tinyhouseblog.jpg"/>
+      "Anyone who’s been to the suburbs in the past half-century knows that American homes have been getting larger and more elaborate year after year. The average size of new homes has swelled by 50 percent since 1970, despite that the average family size decreased during the same period. And it’s not just here; similar trends have held sway in other prosperous, mostly Western countries."
+    </p>
+    <p>
+      "As with most things, a countertrend, focused on homes that are smaller and simpler than the norm, emerged in recent decades. Sometimes referred to as the “tiny house movement,” the concept describes efforts by architects, activists and frugal home owners to craft beautiful, highly functional houses of 1,000 square feet or less (some as small as 80 square feet). It’s both a practical response to soaring housing costs and shrinking incomes, and an idealistic expression of good design and sensible resource use."
+      <br>
+      Source: http://time.com/130959/tiny-houses-with-big-ambitions/
+    </p>
   </body>
-</html>
+</html>											
